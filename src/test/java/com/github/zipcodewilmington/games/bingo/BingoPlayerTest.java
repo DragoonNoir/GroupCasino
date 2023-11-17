@@ -11,6 +11,12 @@ public class BingoPlayerTest {
         CasinoAccount casinoAccount = new CasinoAccount("username", "password");
         BingoPlayer bingoPlayer = new BingoPlayer(casinoAccount);
         Assert.assertNotNull(bingoPlayer);
+//
+//
+//        public void setup(){
+
+
+
     }
 //    @Test
 //    public <BingoPlayerBoard> void TestBingoPlayerBoard(){

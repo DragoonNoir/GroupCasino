@@ -16,4 +16,10 @@ public class BingoBoardTest {
         board.populateColumn(0);
         Assert.assertNotEquals(0, board.getBingoBoard()[0][0].intValue());
     }
+
+//    public void testForBingoAcross(){
+//        bingoBoard
+//    }
+
 }
+
