@@ -4,14 +4,24 @@ import java.util.Random;
 
 public class BingoBoard {
     Integer[][] bingoBoard = new Integer[5][5];
+    Random rand = new Random();
 
     public Integer[][] populateColumn(int col) {
-        Random rand = new Random();
-        for (int i = 0; i < 5; i++) {
-            bingoBoard[i][col] = rand.nextInt(15) + 1 + (15 * col);
-
-        }
+//        for (int i = 0; i < 5; i++) {
+//            if (bingoBoard[i][col] == )
+//                bingoBoard[i][col] = rand.nextInt(15) + 1 + (15 * col); // Make sure numbers don't repeat
+//
+//        }
         return bingoBoard;
+    }
+
+    public boolean checkDuplicate(int col, int assignedNum) {
+//        for (int i = 0; i < 5; i++) {
+//            if (bingoBoard[i][col] == bin) {
+//
+//            }
+//        }
+        return true;
     }
 
     public Integer[][] getBingoBoard() {
