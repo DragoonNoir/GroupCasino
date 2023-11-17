@@ -33,7 +33,7 @@ public class BingoGameTests {
 
 
     }
-
+    //random ball pick test
     @Test
     public void pickBallTest(){
         BingoGame bingoGame = new BingoGame();
@@ -43,9 +43,13 @@ public class BingoGameTests {
     }
     //focus on winning conditions
     //pick a ball
-    //random ball pick
-    // have a value that will never be picked
 
+    // have a value that will never be picked
+// check for Bingo diagnal
+    @Test
+    public void checkForDiagnial(){
+//        Boolean expe
+    }
 
 
 
